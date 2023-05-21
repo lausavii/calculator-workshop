@@ -1,0 +1,44 @@
+*{
+font-family: 'Comic Neue', cursive;
+font-family: 'Mali', cursive;
+font-family: 'Sigmar', cursive;
+}
+
+.navbar{
+    background-color: rebeccapurple;
+
+}
+
+p {
+    font-size: 2em;
+    color: hotpink;
+  }
+
+  .column {
+    float: left;
+    width: 50%;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  h1{
+    font-family: 'Mali' , cursive;
+    text-decoration: cornflowerblue underline wavy;
+  }
+
+  p{
+    font-family: 'Comic Neue', cursive;
+  }
+
+  a{
+    font-size: 1.5em;
+    color: cornflowerblue;
+  }
+  .dropdown-item:hover{
+    background-color: lime;
+  }
